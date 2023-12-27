@@ -1,0 +1,64 @@
+*{
+    background-color: aqua;  
+    font-family: cursive;
+  }
+  
+  table ,td {
+      font-size: 25px;
+      text-align: center;
+      /* padding: 10px ; */
+      /* margin: 0px 0px ; */
+      border : 2px solid red;
+      border-collapse : collapse ;
+      box-sizing: border-box;
+      
+  }  
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+}
+  
+  td { 
+      padding: 3px 10px;
+  } 
+  
+  
+  button{
+      background-color: rgb(251, 255, 0);
+      color: blueviolet;
+      /* font-size: large; */
+      font-family: cursive;
+      width: 120px;
+      height: 30px;
+      border-radius: 10px;
+      border: 1px solid rgb(5, 37, 180);
+      margin: 20px 280px;   
+  }
+  
+  div {
+      padding: 30px 160px ; 
+  }
+  
+  #heading {
+    color: blue; 
+    font-size: 40px;
+  }
+  
+  #first_element { 
+      /* margin: 0px 107px; */
+      padding: 0px 161px ; 
+  }
+  
+  #sec_element { 
+      padding: 0px 190px ; 
+  }
+  
+  input{
+      width: 15px;
+      height: 15px;
+      border: 0px;
+      margin: 0px 0px ;
+  }

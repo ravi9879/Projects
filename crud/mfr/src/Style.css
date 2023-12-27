@@ -1,0 +1,194 @@
+body{
+    margin: 0px 0px ; 
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none ;
+}
+
+a .li {
+    color : white ;
+}
+
+nav { 
+    padding: 30px 0px ;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(243, 7, 172); 
+    font-family: cursive; 
+    position: sticky;
+    color: white;
+    top: 0px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    padding-top: 5%;
+    background-color: rgb(54, 243, 7); 
+    height: 1000px; 
+     
+}
+ 
+form p {
+    padding: 10px 10px ; 
+}
+ 
+form button{
+    background-color: rgb(251, 255, 0);
+    color: blueviolet; 
+    font-family: cursive;
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(5, 37, 180);
+  
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 10px;
+    background-color: rgb(54, 243, 7);
+    border: 3px solid rgb(5, 37, 180);
+    padding: 20px 0px ; 
+} 
+
+
+.fox{ 
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 1000px;
+    background-color: rgb(54, 243, 7);
+}
+ 
+
+
+
+
+table,tr,th ,td {
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px 35px ;
+    border : 2px solid red;
+    border-collapse : collapse ;
+    box-sizing: border-box;
+    margin: 10px 20px;
+    
+}
+th {
+    font-weight: bolder;
+    font-size: larger; 
+    font-style: italic;
+}
+ 
+
+ 
+
+
+
+@media screen and (max-width : 850px) {
+ 
+    body{
+ 
+        margin: 0px 0px;
+        font-size: x-large;
+    }
+    
+    nav { 
+        padding: 30px 0px ;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(243, 7, 172); 
+        font-family: cursive; 
+        /* position: sticky; */
+        /* top: 0px; */
+    }
+      
+     
+    .li{ 
+        padding-top: 10px;
+    }
+    
+    
+    form{
+        display: flex;
+        flex-direction: column;  
+        align-items: center; 
+        padding-top: 10%;
+        background-color: rgb(54, 243, 7); 
+        height: 1000px; 
+ 
+    }
+     
+    form p {
+        padding: 10px 10px ; 
+    }
+     
+    form button{
+        background-color: rgb(251, 255, 0);
+        color: blueviolet; 
+        font-family: cursive;
+        width: 75px;
+        height: 25px;
+        border-radius: 10px;
+        border: 1px solid rgb(5, 37, 180);
+         
+    }
+    
+    form div{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        border-radius: 10px;
+        background-color: rgb(54, 243, 7);
+        border: 3px solid rgb(5, 37, 180);
+        padding: 20px 0px ; 
+    } 
+    
+    
+    .fox{ 
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 1000px;
+        background-color: rgb(54, 243, 7);
+    }
+
+
+       
+    table,tr,th ,td {
+        font-size: medium;
+        text-align: center;
+        padding: 10px 35px ;
+        border : 2px solid red;
+        border-collapse : collapse ;
+        box-sizing: border-box;
+        /* margin: 10px 20px; */
+        
+    }
+    th {
+        font-weight: bolder;
+        font-size: larger; 
+        font-style: italic;
+    }
+    
+ 
+      
+}
